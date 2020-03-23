@@ -22,7 +22,7 @@ def create_custom_hn(links, subtext):
 
 i=1
 final_hn=[] 
-while i > 0:
+while True:
     i=str(i)
     link=[]
     url = "https://news.ycombinator.com/news?p="+i
